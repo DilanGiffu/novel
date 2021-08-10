@@ -3,7 +3,7 @@ function nlogoref() {
 }
 
 function wref() {
-    open("https://api.whatsapp.com/send?phone=5511992097987&text=Bem-vindo%20a%20Novel!!%20Conta%20com%20a%20gente.")
+    open("https://api.whatsapp.com/send?phone=5511935857206&text=Bem-vindo(a)%20%C3%A0%20Novel!!%20Conta%20com%20a%20gente.")
 }
 
 function iref() {
