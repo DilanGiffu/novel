@@ -3,6 +3,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -20,6 +21,7 @@ header {
     left: 30px;
     top: 15px;
     cursor: pointer;
+    user-select: none;
 } #nlogo:hover { transition: 0.3s; filter: opacity(0.7);}
 
 ul {
@@ -33,6 +35,7 @@ ul {
 ul li {
     display: inline;
     word-spacing: 60px;
+    position: relative;
 }
 
 ul li a {
@@ -43,6 +46,8 @@ ul li a {
 } 
 
 ul li a:hover { transition: 0.3s; color: #ff5e00; }
+
+#socialIcons { position: relative; }
 
 #wlogo {
     transition: 0.3s;
@@ -67,3 +72,41 @@ ul li a:hover { transition: 0.3s; color: #ff5e00; }
     user-select: none;
     cursor: pointer;
 } #ilogo:hover { transition: 0.3s; color: rgb(228, 96, 221); }
+
+#banner {
+    position:absolute;
+    margin: auto;
+    margin-top: 65px;
+    background-color: #04292e;
+    width: 100%;
+    height: 400px;
+}
+
+#chamariz div {
+    display: flexbox;
+    justify-content: center;
+}
+
+.sampleVid {
+    width: 320px;
+    height: 180px;
+    background: black;
+    border-radius: 8px;
+}
+
+.portBut {
+    cursor: pointer;
+    color: white;
+    background: #ff5e0088;
+    border-style: none;
+    border-radius: 5px;
+    outline-style: none;
+    transition: 0.3s;
+    width: 90px;
+    height: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:300;
+}
+
+#chamariz input:hover { display: inline; background: #ff5e00; transition: 0.3s; }
+#chamariz input:active { background: #6d2800; transition: 0.1s; width:86px; height: 28px; }
