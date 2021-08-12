@@ -75,16 +75,28 @@ ul li a:hover { transition: 0.3s; color: #ff5e00; }
 
 #banner {
     position:absolute;
-    margin: auto;
     margin-top: 65px;
     background-color: #04292e;
     width: 100%;
     height: 400px;
+    display: inline-flex;
+    justify-content: center;
+} .insideBanner { margin: 10px; margin-top: 5%;}
+
+#h2frase {
+    margin-top: 25px;
+    position: absolute;
+    text-align: center;
+    font-size: 28pt;
+    font-weight: 500;
 }
 
-#chamariz div {
-    display: flexbox;
-    justify-content: center;
+#h3frase {
+    position: absolute;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 300;
 }
 
 .sampleVid {
@@ -106,7 +118,14 @@ ul li a:hover { transition: 0.3s; color: #ff5e00; }
     height: 32px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight:300;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    transform: scale(100%);
+    transform-origin: center;
 }
 
-#chamariz input:hover { display: inline; background: #ff5e00; transition: 0.3s; }
-#chamariz input:active { background: #6d2800; transition: 0.1s; width:86px; height: 28px; }
+#banner input:hover { vertical-align: middle; background: #ff5e00; transition: 0.3s; transform: scale(105%); }
+#banner input:active { background: #6d2800; transition: 0.1s; transform: scale(95%); }
+#banner p { text-align: center; justify-content: center;  margin-left: -10px; vertical-align: middle;}
+#banner p span { vertical-align: middle; margin-top: -8px; user-select: none;}
