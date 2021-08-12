@@ -9,3 +9,7 @@ function wref() {
 function iref() {
     open("https://instagram.com/novel.oficial")
 }
+
+function portMusicaOn() {
+    null
+}
