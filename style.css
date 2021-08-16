@@ -25,6 +25,12 @@ header {
     transform: scale(100%);
 } #nlogo:hover { transition: 0.3s; filter: opacity(0.7); transform: scale(97%); }
 
+h2 {
+    position: fixed;
+    padding: 1%;
+    display: inline-flex;
+}
+
 ul {
     list-style: none;
     text-align: center;
@@ -72,7 +78,7 @@ ul li a:hover { transition: 0.3s; color: #ff5e00; }
     right: 60px;
     user-select: none;
     cursor: pointer;
-} #ilogo:hover { transition: 0.3s; color: rgb(228, 96, 221); }
+} #ilogo:hover { transition: 0.3s; color: #e460dd; }
 
 #homeshow {
     width: 100%;
@@ -83,22 +89,22 @@ ul li a:hover { transition: 0.3s; color: #ff5e00; }
 }
 
 #banner {
-    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
     margin-top: 65px;
-    background-color: #04292e;
     width: 100%;
-    height: 400px;
+    height: 600px;
     display: inline-flex;
     justify-content: center;
-} .insideBanner { margin: 10px; margin-top: 5%;}
+} .insideBanner { margin: 10px; margin-top: 5.2%;}
 
-#h2frase { margin-top: 25px; position: absolute; text-align: center; font-size: 28pt; font-weight: 500; }
+#h2frase { margin-top: 25px; position: absolute; text-align: center; font-size: 28pt; font-weight: 400; }
 #h3frase { margin-top: 70px; position: absolute; text-align: center; font-size: 12pt; font-weight: 300; }
 
 .sampleVid {
-    display: flex;
-    width: 320pt;
-    height: 180pt;
+    width: 426.66px;
+    height: 240px;
     background: black;
     border-radius: 6px;
 }
@@ -128,7 +134,7 @@ iframe {
     transform-origin: center;
 }
 
-#banner input:hover { vertical-align: middle; background: #ff5e00; transition: 0.3s; transform: scale(105%); }
+#banner input:hover { vertical-align: middle; background: #ff5e00; transition: 0.3s; transform: scale(105%); box-shadow: 2px 2px 4px #1818188e;}
 #banner input:active { background: #6d2800; transition: 0.1s; transform: scale(95%); }
-#banner p { text-align: center; justify-content: center;  margin-left: -10px; vertical-align: middle;}
+#banner p { font-weight: 300; text-align: center; justify-content: center;  margin-left: -10px; vertical-align: middle;}
 #banner p span { vertical-align: middle; margin-top: -8px; user-select: none;}
