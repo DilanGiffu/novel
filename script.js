@@ -1,5 +1,5 @@
 function nlogoref() {
-    location.href = "index.html"
+    location.href = "http://novel.art.br"
 }
 
 function wref() {
