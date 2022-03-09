@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #ececec;
     background-image: url(files/OEnKKXvdbDU-unsplash.jpg);
@@ -5,8 +10,6 @@ body {
     background-repeat:no-repeat;
     font-family: 'Baloo 2', cursive;
     color: #404040;
-    margin: 0;
-    padding: 0;
 }
 
 header {
@@ -15,19 +18,17 @@ header {
     height: 13%;
     /* align menu/header items on center */
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
 }
 
 #nlogo {
+    position: absolute;
+    left: 130px;
+    margin-right: 50px;
+    height: 48px;
     fill: #404040;
     transition: 0.3s;
-    position: absolute;
-    width: 4%;
-    left: 50px;
-    top: auto;
-    min-height: 35%;
-    max-height: 35%;
     cursor: pointer;
     user-select: none;
     transform: scale(100%);
@@ -39,6 +40,8 @@ ul {
     line-height: 33px;
     user-select: none;
     cursor: auto;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 ul li {
@@ -53,9 +56,9 @@ ul li a {
     padding: 18pt;
 } 
 
-#novelID_mnu {
+#novelID_menu {
     color: #dd7000;
-} #novelID_mnu:hover { transition: 0.3s; color: #33bbcc; }
+} #novelID_menu:hover { transition: 0.3s; color: #33bbcc; }
 
 ul li a:hover { transition: 0.3s; color: #33bbcc; }
 
@@ -63,7 +66,6 @@ ul li a:hover { transition: 0.3s; color: #33bbcc; }
     position: absolute;
     display: flex;
     right: 7%;
-    top: 37%;
 }
 
 .rsico {
@@ -74,7 +76,6 @@ ul li a:hover { transition: 0.3s; color: #33bbcc; }
 #wlogo {
     transition: 0.3s;
     font-size: 23px;
-    top: auto;
     user-select: none;
     cursor: pointer;
 } #wlogo:hover { transition: 0.3s; color: #087c08; }
@@ -82,7 +83,6 @@ ul li a:hover { transition: 0.3s; color: #33bbcc; }
 #ilogo {
     transition: 0.3s;
     font-size: 23px;
-    top: 33%;
     user-select: none;
     cursor: pointer;
 } #ilogo:hover { transition: 0.3s; color: #8d0086; }
